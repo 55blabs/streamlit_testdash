@@ -9,6 +9,11 @@ st.subheader("Activity for 30 day observation")
 st.write("How much time are we spending in 10 activities during the time of 30 days")
 st.write(['Duration', 'Date', 'Activity'])
 
+df= pd.read_csv('/Users/michaelmcnair/Desktop/Januarydata.csv')
+print(df)
+
+
+
 dataframe = np.random.randn(10, 20)
 st.dataframe(dataframe)
 
