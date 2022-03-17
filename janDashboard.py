@@ -10,7 +10,8 @@ st.write("How much time are we spending in 10 activities during the time of 30 d
 st.write(['Duration', 'Date', 'Activity'])
 
 
-
+x = st.slider('x')
+              st.write(x, 'squared is', x * x)
 
 dataframe = np.random.randn(10, 20)
 st.dataframe(dataframe)
@@ -35,5 +36,4 @@ map_data =pd.DataFrame(
   columns=['lat', 'lon'])
 st.map(map_data)
 
-x = st.slider('x')
-              st.write(x, 'squared is', x * x)
+
