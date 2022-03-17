@@ -13,6 +13,8 @@ st.write(['Duration', 'Date', 'Activity'])
 x = st.slider('x')
 st.write(x, 'squared is', x * x)
 
+st.text_input("Michael", Key="Michael McNair")
+st.session_state.name
 
 dataframe = np.random.randn(10, 20)
 st.dataframe(dataframe)
