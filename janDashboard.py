@@ -6,6 +6,7 @@ import numpy as np
 
 st.header("Michaels Dashboard!")
 st.subheader("Activity for 30 day observation")
+st.write("
 st.write(['Duration', 'Date', 'Activity'])
 
 dataframe = np.random.randn(10, 20)
