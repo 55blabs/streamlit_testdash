@@ -9,7 +9,7 @@ st.subheader("Activity for 30 day observation")
 st.write("How much time are we spending in 10 activities during the time of 30 days")
 st.write(['Duration', 'Date', 'Activity'])
 
-df= pd.read_csv("/Desktop/Januarydata.csv")
+df= pd.read_csv("/Users/michaelmcnair/Desktop/MBD/Januarydata.csv")
 print(df)
 
 
