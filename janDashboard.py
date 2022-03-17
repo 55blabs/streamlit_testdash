@@ -1,1 +1,4 @@
-<title> Hello world </title>
+import streamlit as st
+
+
+st.write("Hello World")
