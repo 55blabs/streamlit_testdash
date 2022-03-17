@@ -6,7 +6,7 @@ import numpy as np
 
 st.header("Michaels Dashboard!")
 st.subheader("Activity for 30 day observation")
-st.writ(['Duration', 'Date', 'Activity'])
+st.write(['Duration', 'Date', 'Activity'])
 
 dataframe = np.random.randn(10, 20)
 st.dataframe(dataframe)
@@ -22,4 +22,6 @@ dataframe = pd.DataFrame(
 st.table(dataframe)
 
 chart_data = pd.DataFrame(
-  np.random
+  np.random.randn(20, 3),
+  columns=['a', 'b', 'c'])
+st.line_chart(chart_data)
